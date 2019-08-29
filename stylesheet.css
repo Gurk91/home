@@ -1,0 +1,115 @@
+body{
+	background-color: #04d4fe;
+	font-family: Courier;
+	margin: 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.navbar {
+  display: inline;
+  float: left;
+  text-align: center;
+}
+a.navbar {
+  display: block;
+  padding: 8px;
+  background-color: #e5fe04;
+}
+
+#aboutID{
+	background-color: #fecc04;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	padding: 20px;
+}
+
+.about{
+	color: #fe0468;
+	text-align: left;
+}
+
+p.about{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h2.about{
+	font-size: 30px;
+}
+
+h3.contact{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+
+.bodytext{
+	background-color: white;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	padding: 20px;
+
+}
+
+.background{
+	width: 300px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	padding: 20px;
+}
+
+.highlight{
+	color: #9a04fe;
+}
+
+img.imaage{
+		display: block;
+		text-align: center;
+		height: 300px;
+		width: 225px;
+		padding: 10px;
+		background-color: white;
+		border-color: black;
+		border-width: 2px;
+		border-style: solid; 
+		margin-right: 10px;
+		float: left;
+
+	}
+
+.container{
+	width: 60%;
+	height: 100%;
+	padding: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+
+
