@@ -27,9 +27,6 @@ a.navbar {
 
 #aboutID{
 	background-color: #fecc04;
-	border-color: black;
-	border-width: 2px;
-	border-style: solid;
 	padding: 20px;
 }
 
@@ -79,12 +76,9 @@ img.imaage{
 		display: block;
 		text-align: center;
 		height: 300px;
-		width: 225px;
+		width: 17.5%;
 		padding: 10px;
 		background-color: white;
-		border-color: black;
-		border-width: 2px;
-		border-style: solid; 
 		margin-right: 10px;
 		float: left;
 
@@ -100,6 +94,41 @@ img.imaage{
 	margin-right: 20%;
 }
 
+.bodyContainerHalf{
+	width: 80%;
+	height: 100%;
+	padding: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	margin-left: 20%;
+}
+
+.bodyContainerFull{
+	width: 95%;
+	height: 100%;
+	padding: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-left: 5%;
+	
+}
+
+h3.bodyContainerFull{
+	font-weight: bold;
+	text-align: center;
+}
+
+.bodyHeaderFull{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background-color: #fe4f04;
+	color: white;
+	box-sizing: border-box;
+	font-size: 20px;
+
+}
 
 a:link{
 	color: black;
@@ -107,7 +136,7 @@ a:link{
 }
 
 a:hover{
-	color: orange;
+	color: #fe1004;
 	text-decoration: none;
 }
 
