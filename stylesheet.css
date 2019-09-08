@@ -138,8 +138,23 @@ h3.bodyContainerFull{
 	color: black;
 	box-sizing: border-box;
 	font-size: 20px;
-
 }
+
+.leftBox{
+	float: left;
+	width: 45%;
+	background-color: white;
+	box-sizing: border-box;
+	
+}
+
+.rightBox{
+	float: right;
+	width: 45%;
+	background-color: white;
+	box-sizing: border-box;
+	
+}	
 
 a:link{
 	color: black;
