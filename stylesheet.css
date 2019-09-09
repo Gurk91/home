@@ -157,9 +157,26 @@ img.imaage{
 	
 }
 
+.bodyContainerFullI{
+	width: 90%;
+	height: 100%;
+	padding: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
 h3.bodyContainerFull{
 	font-weight: bold;
 	text-align: center;
+}
+
+h2.bodyContainerFull{
+	font-size: 20px;
+	margin-left: 0px;
 }
 
 .bodyHeaderFull{
@@ -200,6 +217,7 @@ h3.bodyContainerFull{
 	padding: 10px;
 	
 }	
+
 
 a:link{
 	color: black;
