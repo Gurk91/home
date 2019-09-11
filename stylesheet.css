@@ -51,6 +51,62 @@ h1 {
   opacity: 1;
 }
 
+.imageHolderA{
+	position: relative;
+  	width: 256px;
+  	overflow:hidden;
+  	display: table-cell;
+  	
+}
+
+.photo{
+	display: table-cell;
+  	width: 256px;
+  	height: auto;
+
+}
+
+.overlayP{
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #008CBA;
+}
+
+.imageHolderA:hover .overlayP{
+	opacity: 1;
+}
+
+.textP {
+  	color: white;
+  	font-size: 17px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.textL {
+  	color: white;
+  	font-size: 15px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
 ul.navbar {
   list-style-type: none;
   margin: 0;
@@ -122,8 +178,9 @@ img.imaage{
 		width: 17.5%;
 		padding: 10px;
 		background-color: white;
-		margin-right: 10px;
+		margin-right: 30px;
 		float: left;
+
 
 	}
 
@@ -155,6 +212,15 @@ img.imaage{
 	font-size: 16px;
 	margin-left: 5%;
 	
+}
+
+.bodyContainerFullB{
+	width: 95%;
+	height: 100%;
+	padding: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
 .bodyContainerFullI{
